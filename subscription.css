@@ -12,7 +12,30 @@ body {
     height: 100vh;
     margin: 0;
     background-color: #f0f0f0;
-  }
+}
+
+div.nav {
+  background-color: #ad51d5;
+  width: 100%;
+  padding: 3rem;
+}
+
+nav.navigation {
+  display: flex;
+  justify-content: space-around;
+}
+
+ul.nav-list {
+  display: flex;
+  list-style: none;
+  gap: 5rem;
+}
+
+li.nav-item {
+  color: white;
+  font-size: 24px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .container {
     display: flex;
@@ -24,7 +47,7 @@ body {
 
 h1 {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    padding: 3rem 0rem 0rem 0rem;
+    padding: 3rem 0rem 2rem 0rem;
 }
 
 .input-button {
